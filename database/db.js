@@ -12,7 +12,7 @@ if(url == 'https://api.reysekha.xyz') throw console.log(color('Cek konfigurasi d
 var db = monk(url);
 
 db.then(() => {
-  console.log(color('Connected correctly to server, ZhirrrGanss','green'))
+  console.log(color('Connected correctly to server, WandaGans','green'))
 })
 .catch ((e) => {
 	console.log(color('Error : '+ e +'\n\nGagal connect ke database, \ncek configurasi database apakah Connection URL sudah benar','red'))
